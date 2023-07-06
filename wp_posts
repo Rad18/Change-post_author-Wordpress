@@ -1,0 +1,1 @@
+UPDATE wp_posts SET post_author=NEW_AUTHOR_ID WHERE post_author=OLD_AUTHOR_ID;
